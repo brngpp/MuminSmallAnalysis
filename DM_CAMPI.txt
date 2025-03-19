@@ -1,0 +1,42 @@
+CAMPI..
+
+<_article.pickle'>: url, title, content, title_emb, content_emb
+
+<_claim.pickle'>: embedding, label, reviewers, date, language, keywords, cluster_keywords, cluster, train_mask, val_mask, test_mask, reviewer_emb
+
+<_hashtag.pickle'>: tag
+
+<_image.pickle'>: url, pixels, width, height, pixels_emb
+
+<reply.pickle'>: tweet_id, text, created_at, lang, source, num_retweets, num_replies, num_quote_tweets, text_emb, lang_emb
+
+<_reply_quote_of_tweet.pickle'>: src, tot
+
+<reply_reply_to_tweet.pickle'>: src, tgt
+
+<tweet.pickle'>: tweet_id, text, created_at, lang, source, num_retweets, num_replies, num_quote_tweets, text_emb, lang_emb , indice 
+
+
+<tweet_discusses_claim.pickle'>: src, tgt
+
+<tweet_has_article_article.pickle'>: src, tgt
+
+<tweet_has_hashtag_hashtag.pickle'>: src, tgt
+
+<tweet_has_image_image.pickle'>: src, tgt
+
+<tweet_mentions_user.pickle'>: src, tgt
+
+<user.pickle'>: user_id, verified, protected, created_at, username, description, url, name, num_followers, num_followees, num_tweets, num_listed, location, description_emb
+
+<user_follows_user.pickle'>: src, tgt
+
+<user_has_hashtag_hashtag.pickle'>: src, tgt
+
+<user_mentions_user.pickle'>: src, tgt
+
+<user_posted_reply.pickle'>: src, tgt
+
+<user_posted_tweet.pickle'>: src, tgt
+
+<user_retweeted_tweet.pickle'>: src, tgt
